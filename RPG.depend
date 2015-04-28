@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1430258222 source:d:\c++\projekt\rpg\main.cpp
+1430261907 source:d:\c++\projekt\rpg\main.cpp
 	<iostream>
 	"Gra.h"
 
@@ -38,7 +38,7 @@
 
 1430254380 source:d:\c++\projekt\rpg\jednostka.cpp
 
-1430259616 source:d:\c++\projekt\rpg\lokalizacja.cpp
+1430262295 source:d:\c++\projekt\rpg\lokalizacja.cpp
 	"Lokalizacja.h"
 	<iostream>
 	<string>
@@ -57,7 +57,7 @@
 	"Przeciwnik.h"
 	"Item.h"
 
-1430257989 d:\c++\projekt\rpg\map.h
+1430262068 d:\c++\projekt\rpg\map.h
 	<string>
 
 1430255839 source:d:\c++\projekt\rpg\map.cpp

@@ -7,9 +7,10 @@
 Lokalizacja::Lokalizacja(std::string _name)
 {
 	name=_name;
-    _name=_name+".txt";
+    _name="mapy/"+_name+".txt";
     char *cstr = new char[_name.length() + 1];
     strcpy(cstr, _name.c_str());
+    std::cout<<"Wczytywanie mapy "<<"\""<<cstr<<"\""<<std::endl;
 
 	std::ifstream mapa;
     mapa.open(cstr);
@@ -25,6 +26,7 @@ Lokalizacja::Lokalizacja(std::string _name)
     mapa.close();
     delete [] cstr;
 }
+
 void Lokalizacja::show_map()
 {
     for(int j=0;j<2;j++)
