@@ -1,7 +1,5 @@
 #include <iostream>
-#include "Gracz.h"
-#include "Przeciwnik.h"
-#include "Item.h"
+#include "Gra.h"
 
 
 
@@ -11,12 +9,12 @@ int main(int argc, char *argv[])
 {
 	Gracz mikze("mikze",100,100,0,0);
 	Przeciwnik pies("pies",100,100,1,1);
-	Lokalizacja* lochy = new Lokalizacja("Lochy");
-	Lokalizacja* zamek = new Lokalizacja("zamek");
+	Lokalizacja* Loch = new Lokalizacja("Loch");
+	Lokalizacja* Zamek = new Lokalizacja("Zamek");
 	Item* miecz = new Item("miecz",1);
 	Item* zbroja = new Item("zbroja",2);
-	mikze.set_lokalizacja(zamek);
-	pies.set_lokalizacja(lochy);
+	mikze.set_lokalizacja(Loch);
+	pies.set_lokalizacja(Zamek);
 	mikze.add_inv(miecz);
 	mikze.add_inv(zbroja);
 	cout<<pies.get_name()<<" "<<pies.get_hp()<<" "<<pies.get_mana()<<" "<<pies.get_lokalizacja()->get_name()<<endl;
@@ -30,6 +28,7 @@ int main(int argc, char *argv[])
 	{
 		cout<<"Inna lokalizacja!"<<endl;
 	}
+	mikze.get_lokalizacja()->show_map();
 	int a;
 	while(true)
 		{
