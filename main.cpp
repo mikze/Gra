@@ -11,10 +11,9 @@ int main(int argc, char *argv[])
 	Przeciwnik pies("pies",100,100,1,1);
 	Lokalizacja* Loch = new Lokalizacja("Loch");
 	Lokalizacja* Zamek = new Lokalizacja("Zamek");
-	Lokalizacja* Step = new Lokalizacja("Step");
 	Item* miecz = new Item("miecz",1);
 	Item* zbroja = new Item("zbroja",2);
-	mikze.set_lokalizacja(Step);
+	mikze.set_lokalizacja(Loch);
 	pies.set_lokalizacja(Zamek);
 	mikze.add_inv(miecz);
 	mikze.add_inv(zbroja);
