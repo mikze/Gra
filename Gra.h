@@ -3,6 +3,7 @@
 #include "Gracz.h"
 #include "Przeciwnik.h"
 #include "Item.h"
+#include "world.h"
 
 
 class Gra

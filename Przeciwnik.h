@@ -1,3 +1,4 @@
+#pragma once
 #include "Jednostka.h"
 
 class Przeciwnik : private Jednostka

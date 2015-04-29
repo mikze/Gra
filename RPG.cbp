@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="../RPG" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="../RPG" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,6 +34,22 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Gra.cpp" />
+		<Unit filename="Gra.h" />
+		<Unit filename="Gracz.cpp" />
+		<Unit filename="Gracz.h" />
+		<Unit filename="Inventory.cpp" />
+		<Unit filename="Inventory.h" />
+		<Unit filename="Item.cpp" />
+		<Unit filename="Item.h" />
+		<Unit filename="Jednostka.cpp" />
+		<Unit filename="Jednostka.h" />
+		<Unit filename="Lokalizacja.cpp" />
+		<Unit filename="Lokalizacja.h" />
+		<Unit filename="Map.cpp" />
+		<Unit filename="Map.h" />
+		<Unit filename="Przeciwnik.cpp" />
+		<Unit filename="Przeciwnik.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

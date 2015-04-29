@@ -1,3 +1,4 @@
+#pragma once
 #include "Jednostka.h"
 #include "Item.h"
 
@@ -19,7 +20,7 @@ public:
 	void show_inv();
 	std::string get_name();
 	Lokalizacja* get_lokalizacja();
-	
+
 private:
 
 

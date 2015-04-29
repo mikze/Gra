@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1430261907 source:d:\c++\projekt\rpg\main.cpp
+1430341597 source:d:\c++\projekt\rpg\main.cpp
 	<iostream>
 	"Gra.h"
 
-1430254380 d:\c++\projekt\rpg\gracz.h
+1430341329 d:\c++\projekt\rpg\gracz.h
 	"Jednostka.h"
 	"Item.h"
 
@@ -12,7 +12,7 @@
 	"Inventory.h"
 	<string>
 
-1430257270 d:\c++\projekt\rpg\lokalizacja.h
+1430340908 d:\c++\projekt\rpg\lokalizacja.h
 	<string>
 	"Map.h"
 
@@ -22,7 +22,7 @@
 1430254380 d:\c++\projekt\rpg\item.h
 	<string>
 
-1430254380 d:\c++\projekt\rpg\przeciwnik.h
+1430341336 d:\c++\projekt\rpg\przeciwnik.h
 	"Jednostka.h"
 
 1430254380 source:d:\c++\projekt\rpg\gracz.cpp
@@ -52,14 +52,24 @@
 1430255667 source:d:\c++\projekt\rpg\gra.cpp
 	"Gra.h"
 
-1430255721 d:\c++\projekt\rpg\gra.h
+1430340635 d:\c++\projekt\rpg\gra.h
 	"Gracz.h"
 	"Przeciwnik.h"
 	"Item.h"
+	"world.h"
 
 1430262068 d:\c++\projekt\rpg\map.h
 	<string>
 
 1430255839 source:d:\c++\projekt\rpg\map.cpp
 	"Map.h"
+
+1430341383 d:\c++\projekt\rpg\world.h
+	"Lokalizacja.h"
+	"Item.h"
+	"Gracz.h"
+	"Przeciwnik.h"
+
+1430341382 source:d:\c++\projekt\rpg\world.cpp
+	"world.h"
 
